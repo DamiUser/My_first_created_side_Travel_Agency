@@ -1,0 +1,196 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="my_side_project.css">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+    <title>Travel Agency</title>
+ </head>
+ <body>
+    <header>
+        <h1>Big&Travel</h1>
+        <nav>
+          <ul>
+            <a href="#Home"><li>Home</li></a>
+            <a href="#Log in"><li>Log in</li></a>
+            <a href="#Our_Offer"><li>Our Offer</li></a>
+            <a href="#Opinions"><li>Opinions</li></a>
+            <a href="#Contact"><li>Contact</li></a>
+           </ul>
+        </nav>
+     </header>
+     <main>
+        <section id="Home">
+            <img src="https://cdn.pixabay.com/photo/2016/02/13/05/02/sunset-1197394_960_720.jpg"  width="100%" height="700rem">
+            <h1>Hello Welcome to our side .We have offer you  the best prices and the greatest safety.</h1>
+         </section>
+         <section id="Log in">
+         <form>
+            <fieldset>
+               <legend>Log in</legend>
+                   <label class="name" for="user_name">User Name:</label>
+               <p>    
+                   <input  id="user_name" type="text" placeholder="Writte Your Name" minlegt="3"maxleght="16" required>
+               </p>
+                  <label class="password" for="user_password">Password:</label>
+               <p> 
+                  <input id="user_password" type="text" placeholder="Writte Your Password" minleght="4" maxleght="12" required>
+               </p>
+               <p>
+                  <button type="submit">Log in</button>
+                  <button type="reset">Reset</button>
+               </p>
+               <p>
+                  If you can't account you click <a href="#Registration"><strong>here</strong></a>
+               </p>
+            </fieldset>
+         </form>
+         <form>
+            <fieldset>
+               <legend id="Registration">Registration</legend>
+               <p>
+                  <label for="user_name02">User Name:</label></br>
+                  <input type="text" id="user_name02" placeholder="Writte Your Name" minlegt="3"maxleght="16" required>
+               </p>
+               <p>
+                  <label for="email">Email:</label></br>
+                  <input type="email" id="email"  pattern='@.com'  placeholder="Writte Your Email"  required>
+               </p>
+               <p>
+                  <label for="password02">Password:</label></br>
+                  <input type="text" id="password02" placeholder="Writtte Your Password">
+               </p>
+               <p>
+                  <label for="Password03">Repeat Password:</label></br>
+                  <input type="text" id="Password03" placeholder="Writte Your Password Again">
+               </p>
+               <p>
+                  <input type="checkbox" id="sex" name="sex" value="Men">
+                  <label for="sex">Man</label>
+                  <input type="checkbox" id="sex02" name="sex02" value="Woman">
+                  <label for="sex02">Woman</label>
+                  </p>
+               <p>
+                  <label>Your country:</label>
+                  <input list="countries">
+
+                  <datalist id="countries">
+                     <option value="Unitet State">
+                     <option value="China">
+                     <option value="Russia">
+                     <option value="Turkey">
+                  </datalist>
+               </p>
+               <p>
+                  <label for="description">Writte about yourself:</label></br>
+                  <textarea name="description" id="description" cols="40" rows="50"></textarea>
+               </p>
+               <p>
+                  <button type="submit">Register</button>
+                  <button type="reset">Reset</button>
+               </p>
+            </fieldset>
+         </form>
+        </section>
+        <section id="Our_Offer">
+            <table>
+               <caption>Our Offer:</caption>
+               <thead>
+                  <tr>
+                     <th>Country</th>
+                     <th>Price</th>
+                     <th>What we offer</th>
+                  </tr>   
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>
+                        Italy
+                     </td>
+                     <td>
+                        $1500
+                     </td>
+                     <td>
+                        Good Hotel Coloseum 5 stars
+                        Guide
+                        Excursion program
+                        You can go sightseeing Rome
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        Egypt
+                     </td>
+                     <td>
+                         $3400
+                     </td>
+                     <td>
+                         Good Hotel Fenix 5 stars
+                         Guide
+                         Ecursion program 
+                         Guarantee reimbursement in the event of an accident
+                     </td>
+                  </tr>
+                  <tr>
+                      <td>
+                        Amazon
+                      </td>
+                      <td>
+                        $5000
+                      </td>
+                      <td>
+                        Survive School
+                        Danger environment
+                        Free Wapon be Fighting with Animals
+                        If you would be still life(What is ulikely) you would be stronger person
+                      </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        France
+                     </td>
+                     <td>
+                        $4200
+                     </td>
+                     <td>
+                        The best Hotel in Paris
+                        Guide
+                        Excursion program
+                        You can order one dish in the best restaurant in Paris(You can take accompanying person,in the end in comes about Paris :))
+                     </td>
+                  </tr>
+               </tbody>
+               <tfoot>
+                  <tr>
+                     <td>
+                         1
+                     </td>
+                      <td>
+                          2
+                      </td>
+                      <td>
+                          3
+                      </td>
+                  </tr>
+               </tfoot>
+            </table>
+        </section>
+        <section id="Opinions">
+         <h1 class="GoldO_Opinions">Opininions:</h1>
+            <article>
+               <p>"This is the best Travel Agency ever"</p>
+               <p>"They are very professional"</p>
+               <p>"Cheap,Professional and contact is Super"</p>
+               <p>"You must  their choose"</p>
+            </article>
+         </section>
+    </main>
+     <footer id="Contact">
+         <a href="tel:+69565675785" id="tel">phone number</a>
+         <a href="email:Big&Travel@gmail.com" class="email_02">Our Email</a>
+         <p id="adress">adress: 30/4 Alaska</p>
+     </footer>
+ </body>
+ </html>

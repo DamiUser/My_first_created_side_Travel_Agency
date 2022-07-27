@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background-color: #8c8c8c;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    padding: 3.3rem;
+    margin: 0;
+}
+header nav {
+    color: #8c8c8c;
+
+}
+header h1 {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: #9999ff;
+    position: relative;
+    top: 1.8rem;
+}
+header nav ul  li{
+    float: left;
+    padding: 1.1rem;
+    position: relative;
+    bottom: 2rem;
+    list-style: none;
+    margin-left: 8rem;
+}
+@font-face {
+    font-family: 'Rubik Moonrocks';
+    src: url("RubikMoonrocks-Regular.ttf");
+
+}
+
+main #Home img {
+    position: relative;
+}
+
+
+main #Home h1 {
+     color: gray;
+     font-family: 'Rubik Moonrocks', cursive;
+     position:  absolute;
+     bottom: 0.5rem;
+     left: 2.5rem;
+     font-weight: bold;
+     font-size: 4rem;
+     z-index: 3;
+    }
+
+.user {
+    display: inline-block;
+}
+
+.password {
+    display: inline-block;
+}
+#email{
+    margin-left: 0.1rem;
+}
+a {
+    display: inline-block;
+    color: rgb(43, 58, 85);
+}
+
+
+#Our_Offer {
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+}
+
+table {
+     height: 50rem;
+     width: 40rem;
+}
+
+th {
+    border: 1px solid black;
+}
+
+
+td {
+    border: 1px solid black;
+}
+ 
+#Opinions {
+     height: 20rem;
+     font-size: 1.5rem;
+     color: rgb(0, 0, 0)
+}
+
+#Contact {
+    background-color: #8c8c8c;
+    width: 100%;
+    float: left;
+}
+#tel {
+    display: inline-block;
+    margin-left: 4rem;
+    font-size: 2rem;
+}
+.email_02 {
+    display: inline-block;
+    margin-left: 25rem;
+    font-size: 2rem;
+}
+#adress{
+    display: inline-block;
+    margin-left: 20rem;
+    font-size: 2rem
+}
